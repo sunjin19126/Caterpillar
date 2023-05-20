@@ -8,15 +8,15 @@ The most important code is in caterpillar.py. We trained Caterpillars using the 
 ### Data Preparation
 Download and extract datasets with train and val images from:
 
-[Mini-ImageNet](https://arxiv.org/abs/1606.04080)
+[Mini-ImageNet](https://drive.google.com/file/d/1xDhH7WJzZBdjzxCfc0hT0p8cVkXLGK5l/view?usp=share_link) - [d](https://arxiv.org/abs/1606.04080)
 
-[CIFAR-10](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
+[CIFAR-10](https://drive.google.com/file/d/1KVnDI3UUcMFFYBPISQU84T89s5W1SPLH/view?usp=share_link) - [C10](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
 
-[CIFAR-100](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
+[CIFAR-100](https://drive.google.com/file/d/1ajh7cM7mZz8shLzy0PnkxLzO4Osv6m0S/view?usp=share_link) - [C100](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf) - [C10 paper](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
 
-[Fashion-MNIST](https://arxiv.org/abs/1708.07747)
+[Fashion-MNIST](https://drive.google.com/file/d/1AXWFH6FYaFbrtovb2kM30n4dv3l17hU1/view?usp=share_link) - [FM](https://arxiv.org/abs/1708.07747) - 
 
-[ImageNet-1k](https://image-net.org/)
+[ImageNet-1k](https://image-net.org/) - [IN1k]()
 
 The directory structure is 
 ```
