@@ -16,7 +16,7 @@ Download and extract datasets with train and val images from:
 
 [Fashion-MNIST](https://drive.google.com/file/d/1AXWFH6FYaFbrtovb2kM30n4dv3l17hU1/view?usp=share_link)
 
-[ImageNet-1k](https://image-net.org/) - [IN1k]()
+[ImageNet-1k](https://image-net.org/)
 
 The directory structure is 
 ```
