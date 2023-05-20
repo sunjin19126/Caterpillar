@@ -1,5 +1,5 @@
 # Using Caterpillar to Nibble Small-Scale Images
-Implementation of Caterpillar for the paper "Using Caterpillar to Nibble Small-Scale Images"
+This is a Pytorch implementation of Caterpillar for the paper "Using Caterpillar to Nibble Small-Scale Images"
 
 ### Code overview
 
@@ -37,7 +37,6 @@ The directory structure is
 
 
 ### Training
-Take Caterpillar-T as an example. 
 
 To train Caterpillar-T on Mini-ImageNet on a single node with 2 gpus:
 ```
