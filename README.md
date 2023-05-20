@@ -3,7 +3,12 @@ This is a Pytorch implementation of Caterpillar for the paper "Using Caterpillar
 
 ### Code overview
 
-The most important code is in caterpillar.py. We trained Caterpillars using the `timm` framework, which we copied from here.
+The most important code is in caterpillar.py. We trained all models in our paper using the `timm` framework, which we copied from [here](https://github.com/huggingface/pytorch-image-models).
+
+Inside `pytorch-image-models`, we have made the following modifications.
+= Added Caterpillars
+- added `timm/models/caterpillar.py`
+- added `timm/models/__init__.py`
 
 ### Data Preparation
 Download and extract datasets with train and val images from:
