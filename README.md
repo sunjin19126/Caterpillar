@@ -1,1 +1,66 @@
-# Caterpillar
+# Using Caterpillar to Nibble Small-Scale Images
+Implementation of Caterpillar for the paper "Using Caterpillar to Nibble Small-Scale Images"
+
+### Code overview
+
+The most important code is in caterpillar.py. We trained Caterpillars using the `timm` framework, which we copied from here.
+
+### Data Preparation
+Download and extract datasets with train and val images from:
+
+[Mini-ImageNet](https://arxiv.org/abs/1606.04080)
+
+[CIFAR-10](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
+
+[CIFAR-100](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
+
+[Fashion-MNIST](https://arxiv.org/abs/1708.07747)
+
+[ImageNet-1k](https://image-net.org/)
+
+The directory structure is 
+```
+│path/to/dataset/
+├──train/
+│  ├── n01440764
+│  │   ├── n01440764_10026.JPEG
+│  │   ├── n01440764_10027.JPEG
+│  │   ├── ......
+│  ├── ......
+├──val/
+│  ├── n01440764
+│  │   ├── ILSVRC2012_val_00000293.JPEG
+│  │   ├── ILSVRC2012_val_00002138.JPEG
+│  │   ├── ......
+│  ├── ......
+```   
+
+
+### Training
+Take Caterpillar-T as an example. 
+
+To train Caterpillar-T on Mini-ImageNet on a single node with 2 gpus:
+```
+sh distributed_train.sh 2  /path/to/mini-imagenet  --train-split train  --val-split val  --model Caterpillar_T_MIN  --num-classes 100  --input-size 3 84 84  --epochs 300  -b 512  --opt adamw  --lr 1e-3  --sched cosine  --min-lr 1e-5  --weight-decay 0.05  --warmup-epochs 20  --warmup-lr 1e-6  --aa rand-m9-mstd0.5-inc1  --mixup 0.8 --cutmix 1.0  --drop-path 0  --aug-repeats 3  --reprob 0.25  --smoothing 0.1  -j 8  --amp-impl native --amp  --seed 42
+```
+
+To train Caterpillar-T on CIFAR-10 on a single node with 2 gpus:
+```
+sh distributed_train.sh 2  /path/to/cifar-10  --train-split train  --val-split val  --model Caterpillar_T_C10  --num-classes 10  --input-size 3 32 32  --epochs 300  -b 512  --opt adamw  --lr 1e-3  --sched cosine  --min-lr 1e-5  --weight-decay 0.05  --warmup-epochs 20  --warmup-lr 1e-6  --aa rand-m9-mstd0.5-inc1  --mixup 0.8 --cutmix 1.0  --drop-path 0  --aug-repeats 3  --reprob 0.25  --smoothing 0.1  -j 8  --amp-impl native --amp  --seed 42  
+```
+
+To train Caterpillar-T on CIFAR-100 on a single node with 2 gpus:
+```
+sh distributed_train.sh 2  /path/to/cifar-100  --train-split train  --val-split val  --model Caterpillar_T_C100  --num-classes 100  --input-size 3 32 32  --epochs 300  -b 512  --opt adamw  --lr 1e-3  --sched cosine  --min-lr 1e-5  --weight-decay 0.05  --warmup-epochs 20  --warmup-lr 1e-6  --aa rand-m9-mstd0.5-inc1  --mixup 0.8 --cutmix 1.0  --drop-path 0  --aug-repeats 3  --reprob 0.25  --smoothing 0.1  -j 8  --amp-impl native --amp  --seed 42  
+```
+
+To train Caterpillar-T on Fashion-MNIST on a single node with 2 gpus:
+```
+sh distributed_train.sh 2  /path/to/fashion-mnist  --train-split train  --val-split val  --model Caterpillar_T_FM  --num-classes 10  --input-size 3 28 28  --epochs 300  -b 512  --opt adamw  --lr 1e-3  --sched cosine  --min-lr 1e-5  --weight-decay 0.05  --warmup-epochs 20  --warmup-lr 1e-6  --aa rand-m9-mstd0.5-inc1  --mixup 0.8 --cutmix 1.0  --drop-path 0  --aug-repeats 3  --reprob 0.25  --smoothing 0.1  -j 8  --amp-impl native --amp  --seed 42  
+```
+
+To train Caterpillar-T on ImageNet-1k on a single node with 8 gpus:
+```
+sh distributed_train.sh 8  /path/to/imagenet  --train-split train  --val-split val  --model  Caterpillar_T_IN1k  --num-classes 1000  --input-size 3 224 224  --epochs 300  -b 128  --opt adamw  --lr 1e-3  --sched cosine  --min-lr 1e-5  --weight-decay 0.05  --warmup-epochs 20  --warmup-lr 1e-6  --aa rand-m9-mstd0.5-inc1  --mixup 0.8 --cutmix 1.0  --drop-path 0  --aug-repeats 3  --reprob 0.25  --smoothing 0.1  -j 8  --amp-impl native --amp  --seed 42  --model-ema  --model-ema-decay 0.99996
+```
+
