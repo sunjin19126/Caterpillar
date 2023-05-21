@@ -69,3 +69,7 @@ To train Caterpillar-T on ImageNet-1k on a single node with 8 gpus:
 sh distributed_train.sh 8  /path/to/imagenet  --train-split train  --val-split val  --model  Caterpillar_T_IN1k  --num-classes 1000  --input-size 3 224 224  --epochs 300  -b 128  --opt adamw  --lr 1e-3  --sched cosine  --min-lr 1e-5  --weight-decay 0.05  --warmup-epochs 20  --warmup-lr 1e-6  --aa rand-m9-mstd0.5-inc1  --mixup 0.8 --cutmix 1.0  --drop-path 0  --aug-repeats 3  --reprob 0.25  --smoothing 0.1  -j 8  --amp-impl native --amp  --seed 42  --model-ema  --model-ema-decay 0.99996
 ```
 
+### License
+Caterpillar is released under MIT License.
+
+
