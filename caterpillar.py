@@ -111,7 +111,6 @@ class Caterpillar(nn.Module):
         self.num_classes = num_classes
         self.num_features = self.embed_dim = embed_dim[-1]
 
-
         self.patch_embed = Patch_layer(img_size=img_size, patch_size=patch_size,
                                        in_chans=in_chans, embed_dim=embed_dim[0], flatten=False, bias=False)
         num_patch = self.patch_embed.grid_size[0]
@@ -125,7 +124,6 @@ class Caterpillar(nn.Module):
             else:
                 num_patch = num_patch // down_stride[i]
                 self.blocks.append(nn.Conv2d(embed_dim[i-1], embed_dim[i], down_stride[i], down_stride[i], bias=False))
-
             for j in range(depth[i]):
                 drop_path=dpr[j+shift]
                 self.blocks.append(nn.Sequential(CaterpillarBlock(num_patch, num_patch, embed_dim[i], shift_step[i],
@@ -135,10 +133,8 @@ class Caterpillar(nn.Module):
 
         self.norm = nn.BatchNorm2d(embed_dim[-1])
 
-
         self.feature_info = [dict(num_chs=embed_dim[-1], reduction=0, module='head')]
         self.head = nn.Linear(embed_dim[-1], num_classes) if num_classes > 0 else nn.Identity()
-
 
     def get_classifier(self):
         return self.head
