@@ -93,11 +93,11 @@ class CaterpillarBlock(nn.Module):
         self.globalMix = sparseMLP_BNAct(W, H, channels)
         self.channelMix = FeedForward_LN(channels,drop_out)
 
-        self.drop_path_g = DropPath(drop_path) if drop_path > 0. else nn.Identity()
+        self.drop_path_s = DropPath(drop_path) if drop_path > 0. else nn.Identity()
         self.drop_path_c = DropPath(drop_path) if drop_path > 0. else nn.Identity()
 
     def forward(self, x):
-        x = self.drop_path_g(self.globalMix(self.localMix(x))) + x
+        x = self.drop_path_s(self.globalMix(self.localMix(x))) + x
         x = self.drop_path_c(self.channelMix(x)) + x
         return x
 
