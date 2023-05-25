@@ -7,7 +7,7 @@ The proposed model of Caterpillar is in `caterpillar.py`.
 
 The comparison models is in `models4Comparison`.
 
-We trained all models in our paper using the `timm` framework, which we copied from [here](https://github.com/huggingface/pytorch-image-models). Inside `pytorch-image-models`, we have made the following modifications.
+We trained all models using the `timm` framework, which we copied from [here](https://github.com/huggingface/pytorch-image-models). Inside `pytorch-image-models`, we have made the following modifications.
 + Added Caterpillars
   + added `timm/models/caterpillar.py`
   + added `timm/models/__init__.py`
