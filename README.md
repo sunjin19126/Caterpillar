@@ -5,7 +5,7 @@ This is a Pytorch implementation for the paper "Using Caterpillar to Nibble Smal
 
 The proposed model of Caterpillar is in `caterpillar.py`. 
 
-The comparison models is in `models4Comparison`.
+The comparison models are in `models4Comparison`.
 
 We trained all models using the `timm` framework, which we copied from [here](https://github.com/huggingface/pytorch-image-models). Inside `pytorch-image-models`, we have made the following modifications.
 + Added Caterpillars
