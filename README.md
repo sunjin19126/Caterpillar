@@ -4,6 +4,7 @@ This is a Pytorch implementation of Caterpillar for the paper "Using Caterpillar
 ### Code overview
 
 The most important code is in `caterpillar.py`. 
+The comparison models is in `models4Comparison`.
 We trained all models in our paper using the `timm` framework, which we copied from [here](https://github.com/huggingface/pytorch-image-models).
 
 Inside `pytorch-image-models`, we have made the following modifications.
