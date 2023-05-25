@@ -1,5 +1,5 @@
 # Using Caterpillar to Nibble Small-Scale Images
-This is a Pytorch implementation of Caterpillar for the paper "Using Caterpillar to Nibble Small-Scale Images"
+This is a Pytorch implementation for the paper "Using Caterpillar to Nibble Small-Scale Images"
 
 ### Code overview
 
