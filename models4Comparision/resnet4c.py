@@ -143,7 +143,7 @@ def Resnet152(pretrained=False, **kwargs):
 
 
 # -----------------ResNet series for comparison on 4 datasets------------------------
-# Note we keep the essential layer of max pooling (line79) and set the stride of conv_layer(line78) to '1' in ResNet on all 4 datasets. 
+# Note we retain the essential layer of max pooling (line79) and set the stride of conv_layer(line78) to '1' in ResNet on all 4 datasets. 
 # This is different with the patch-embedding based models (Table 2 in our paper).
 # -----------------MIN-----------------------
 @register_model
