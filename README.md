@@ -3,7 +3,7 @@ This is a Pytorch implementation of Caterpillar for the paper "Using Caterpillar
 
 ### Code overview
 
-The most important code is in `caterpillar.py`. 
+The proposed model of Caterpillar is in `caterpillar.py`. 
 
 The comparison models is in `models4Comparison`.
 
