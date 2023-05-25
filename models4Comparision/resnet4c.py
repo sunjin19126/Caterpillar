@@ -103,7 +103,7 @@ class Resnet(nn.Module):
 
     def forward(self,x):
         out = F.relu(self.bn1(self.conv1(x)))
-        # out = self.maxpool(out)
+        out = self.maxpool(out)
         out = self.features(out)
         out = self.globalpool(out)
         y = self.head(out)
