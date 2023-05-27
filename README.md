@@ -1,6 +1,5 @@
 # Using Caterpillar to Nibble Small-Scale Images
 
-![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/Cpr%2BBlock%2BSPC.png)
 This is a Pytorch implementation for the paper "Using Caterpillar to Nibble Small-Scale Images"
 ### Code overview
 
