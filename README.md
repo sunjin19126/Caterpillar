@@ -1,5 +1,6 @@
 # Using Caterpillar to Nibble Small-Scale Images
 
+![image]()
 This is a Pytorch implementation for the paper "Using Caterpillar to Nibble Small-Scale Images"
 ### Code overview
 
