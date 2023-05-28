@@ -17,7 +17,7 @@ We trained all models using the `timm` framework, which we copied from [here](ht
 ### Data Preparation
 Download and extract datasets with train and val images from:
 
-[Mini-ImageNet](https://drive.google.com/file/d/1xDhH7WJzZBdjzxCfc0hT0p8cVkXLGK5l/view?usp=share_link)
+[Mini-ImageNet(84×84)](https://drive.google.com/file/d/1xDhH7WJzZBdjzxCfc0hT0p8cVkXLGK5l/view?usp=share_link)
 
 [CIFAR-10](https://drive.google.com/file/d/1KVnDI3UUcMFFYBPISQU84T89s5W1SPLH/view?usp=share_link)
 
