@@ -27,7 +27,7 @@ Download and extract datasets with train and val images from:
 
 [ImageNet-1k](https://image-net.org/)
 
-The directory structure is 
+The directory structure should be: 
 ```
 │path/to/dataset/
 ├──train/
