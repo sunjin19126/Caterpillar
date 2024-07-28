@@ -4,6 +4,15 @@ This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architec
 
 ![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/Cpr%2BBlock%2BSPC.png)
 
+Caterpillar on Small-Scale Image Classification
+| Networks | MIN | C10 | C100 | Fashion | Params | FLOPs |
+| :-- |:--:|:--:|:--:|:--:|:--:|:--:|
+| Caterpillar-Mi | 74.14 | 95.54 | 79.41 | 95.14 | 5.9M  | 0.4G |
+| Caterpillar-Tx | 77.27 | 96.54 | 82.69 | 95.38 | 16.0M | 1.1G |
+| Caterpillar-T  | 78.16 | 97.10 | 83.86 | 95.72 | 28.4M | 1.9G |
+| Caterpillar-S  | 78.94 | 97.22 | 84.40 | 95.80 | 58.0M | 4.1G |
+| Caterpillar-B  | 79.06 | 97.35 | 84.77 | 95.85 | 78.8M | 5.5G |
+
 Caterpillar on ImageNet-1k Classification
 | Networks | Params | FLOPs | Top-1 Acc. | Log | Ckpt |
 | :-- |:--:|:--:|:--:|:--:|:--:|
@@ -12,6 +21,14 @@ Caterpillar on ImageNet-1k Classification
 | Caterpillar-T  | 29M | 6.0G  | 82.4 | 95.72 | 28.4M |
 | Caterpillar-S  | 60M | 12.5G | 83.5 | 95.80 | 58.0M |
 | Caterpillar-B  | 80M | 17.0G | 83.7 | 95.85 | 78.8M |
+
+ResNet and ResNet(SPC) on Small-Scale Image Classification
+| Networks | Nc | MIN | C10 | C100 | Fashion | Params | FLOPs |
+| :-- |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Res-18       | 64  | 70.95 | 95.54 | 77.66 | 95.11 | 11.2M | 0.7G |
+| Res-18(SPC)  | 64  | 70.10 | 94.52 | 76.19 | 94.90 | 2.6M  | 0.2G |
+| Res-18(SPC)  | 96  | 71.88 | 95.72 | 78.35 | 95.33 | 5.7M  | 0.4G |
+| Res-18(SPC)  | 128 | 73.24 | 95.84 | 79.77 | 95.54 | 10.2M | 0.8G |
 
 ResNet(/SPC) on ImageNet-1k Classification
 | Networks | Nc | Params | FLOPs | Top-1 Acc. | Log | Ckpt |
