@@ -6,7 +6,7 @@ This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architec
 
 ### Caterpillar on Small-Scale Image Classification
 | Networks | MIN | C10 | C100 | Fashion | Params | FLOPs |
-|----------------|---------|---------|---------|---------|---------|--------|
+| :-- |:--:|:--:|:--:|:--:|:--:|:--:|
 | Caterpillar-Mi | 74.14 | 95.54 | 79.41 | 95.14 | 5.9M  | 0.4G |
 | Caterpillar-Tx | 77.27 | 96.54 | 82.69 | 95.38 | 16.0M | 1.1G |
 | Caterpillar-T  | 78.16 | 97.10 | 83.86 | 95.72 | 28.4M | 1.9G |
