@@ -25,10 +25,10 @@ This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architec
 ### ResNet and ResNet(SPC) on Small-Scale Image Classification
 | Networks | Nc | MIN | C10 | C100 | Fashion | Params | FLOPs |
 |--------------|---------|---------|---------|---------|---------|--------|--------|
-| Res-18       | 64  | 70.95 | 95.54 | 77.66 | 11.2M | 0.7G |
-| Res-18(SPC)  | 64  | 70.10 | 94.52 | 76.19 | 2.6M  | 0.2G |
-| Res-18(SPC)  | 96  | 71.88 | 95.72 | 78.35 | 5.7M  | 0.4G |
-| Res-18(SPC)  | 128 | 73.24 | 95.84 | 79.77 | 10.2M | 0.8G |
+| Res-18       | 64  | 70.95 | 95.54 | 77.66 | 95.11 | 11.2M | 0.7G |
+| Res-18(SPC)  | 64  | 70.10 | 94.52 | 76.19 | 94.90 | 2.6M  | 0.2G |
+| Res-18(SPC)  | 96  | 71.88 | 95.72 | 78.35 | 95.33 | 5.7M  | 0.4G |
+| Res-18(SPC)  | 128 | 73.24 | 95.84 | 79.77 | 95.54 | 10.2M | 0.8G |
 
 ### ResNet and ResNet(SPC) on ImageNet-1k Classification
 | Networks | Nc | Params | FLOPs | Top-1 Acc. | Log | Ckpt |
