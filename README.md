@@ -2,12 +2,16 @@
 
 ![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/Cpr%2BBlock%2BSPC.png)
 
-This is a Pytorch implementation for the paper "Using Caterpillar to Nibble Small-Scale Images"
+This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation"
 ### Code overview
 
 The proposed model of Caterpillar is in `caterpillar.py`. 
 
+The SPC-based model of ResNet(SPC) is in 'resnet_spc.py'.
+
 The comparison models are in `models4Comparison`.
+
+The ablation models are in `models4Ablation`.
 
 We trained all models using the `timm` framework, which we copied from [here](https://github.com/huggingface/pytorch-image-models). Inside `pytorch-image-models-main`, we have made the following modifications.
 + Added Caterpillars
