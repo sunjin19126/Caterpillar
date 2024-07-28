@@ -1,4 +1,6 @@
-# Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation
+# Caterpillar
+
+This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation"
 
 ![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/Cpr%2BBlock%2BSPC.png)
 
