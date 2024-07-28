@@ -2,20 +2,22 @@
 
 ![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/Cpr%2BBlock%2BSPC.png)
 
-| :--  | :--:    | :--:    | :--:    | :--:    | :--:    | :--:    |
+
 | Networks | MIN | C10 | C100 | Fashion | Params | FLOPs |
 |----------------|---------|---------|---------|---------|---------|--------|
-| :--  | :--:    | :--:    | :--:    | :--:    | :--:    | :--:    |
 | Caterpillar-Mi | 74.14 | 95.54 | 79.41 | 95.14 | 5.9M  | 0.4G |
-| :--  | :--:    | :--:    | :--:    | :--:    | :--:    | :--:    |
 | Caterpillar-Tx | 77.27 | 96.54 | 82.69 | 95.38 | 16.0M | 1.1G |
-| :--  | :--:    | :--:    | :--:    | :--:    | :--:    | :--:    |
 | Caterpillar-T  | 78.16 | 97.10 | 83.86 | 95.72 | 28.4M | 1.9G |
-| :--  | :--:    | :--:    | :--:    | :--:    | :--:    | :--:    |
 | Caterpillar-S  | 78.94 | 97.22 | 84.40 | 95.80 | 58.0M | 4.1G |
-| :--  | :--:    | :--:    | :--:    | :--:    | :--:    | :--:    |
 | Caterpillar-B  | 79.06 | 97.35 | 84.77 | 95.85 | 78.8M | 5.5G |
 
+| Networks | Params | FLOPs | Top-1 Acc. | Log | Ckpt |
+|----------------|---------|---------|---------|---------|---------|
+| Caterpillar-Mi | 6M  | 1.2G  | 76.3 | 95.14 | 5.9M  |
+| Caterpillar-Tx | 16M | 3.4G  | 80.9 | 95.38 | 16.0M |
+| Caterpillar-T  | 29M | 6.0G  | 82.4 | 95.72 | 28.4M |
+| Caterpillar-S  | 60M | 12.5G | 83.5 | 95.80 | 58.0M |
+| Caterpillar-B  | 80M | 17.0G | 83.7 | 95.85 | 78.8M |
 
 This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation"
 ### Code overview
