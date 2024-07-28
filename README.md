@@ -7,7 +7,7 @@ This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architec
 
 The proposed model of Caterpillar is in `caterpillar.py`. 
 
-The SPC-based model of ResNet(SPC) is in 'resnet_spc.py'.
+The SPC-based model of ResNet(SPC) is in `resnet_spc.py`.
 
 The comparison models are in `models4Comparison`.
 
