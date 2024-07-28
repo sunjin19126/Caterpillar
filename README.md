@@ -22,6 +22,23 @@ This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architec
 | Caterpillar-S  | 60M | 12.5G | 83.5 | 95.80 | 58.0M |
 | Caterpillar-B  | 80M | 17.0G | 83.7 | 95.85 | 78.8M |
 
+### ResNet and ResNet(SPC) on Small-Scale Image Classification
+| Networks | Nc | MIN | C10 | C100 | Fashion | Params | FLOPs |
+|--------------|---------|---------|---------|---------|---------|--------|--------|
+| Res-18       | 64  | 70.95 | 95.54 | 77.66 | 11.2M | 0.7G |
+| Res-18(SPC)  | 64  | 70.10 | 94.52 | 76.19 | 2.6M  | 0.2G |
+| Res-18(SPC)  | 96  | 71.88 | 95.72 | 78.35 | 5.7M  | 0.4G |
+| Res-18(SPC)  | 128 | 73.24 | 95.84 | 79.77 | 10.2M | 0.8G |
+
+### ResNet and ResNet(SPC) on ImageNet-1k Classification
+| Networks | Nc | Params | FLOPs | Top-1 Acc. | Log | Ckpt |
+|----------------|---------|---------|---------|---------|---------|---------|
+| Res-18       | 64  | 12M | 1.8G | 70.6 | 5.9M  | 0.4G |
+| Res-18(SPC)  | 64  | 3M  | 0.6G | 69.1 | 28.4M | 1.9G |
+| Res-18(SPC)  | 96  | 7M  | 1.3G | 73.6 | 58.0M | 4.1G |
+| Res-18(SPC)  | 128 | 11M | 2.2G | 75.3 | 78.8M | 5.5G |
+
+
 
 ### Code overview
 
