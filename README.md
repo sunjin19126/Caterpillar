@@ -2,7 +2,7 @@
 
 ![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/Cpr%2BBlock%2BSPC.png)
 
-# Caterpillar on Small-Scale Image Classification
+Caterpillar on Small-Scale Image Classification
 | Networks | MIN | C10 | C100 | Fashion | Params | FLOPs |
 |----------------|---------|---------|---------|---------|---------|--------|
 | Caterpillar-Mi | 74.14 | 95.54 | 79.41 | 95.14 | 5.9M  | 0.4G |
@@ -11,7 +11,7 @@
 | Caterpillar-S  | 78.94 | 97.22 | 84.40 | 95.80 | 58.0M | 4.1G |
 | Caterpillar-B  | 79.06 | 97.35 | 84.77 | 95.85 | 78.8M | 5.5G |
 
-# Caterpillar on ImageNet-1k Classification
+Caterpillar on ImageNet-1k Classification
 | Networks | Params | FLOPs | Top-1 Acc. | Log | Ckpt |
 |----------------|---------|---------|---------|---------|---------|
 | Caterpillar-Mi | 6M  | 1.2G  | 76.3 | 95.14 | 5.9M  |
