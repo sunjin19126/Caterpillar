@@ -2,6 +2,7 @@
 
 ![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/Cpr%2BBlock%2BSPC.png)
 
+| Left Aligned  | Center Aligned  | Center Aligned  | Center Aligned  | Center Aligned  | Center Aligned  | Center Aligned  |
 | Networks | MIN | C10 | C100 | Fashion | Params | FLOPs |
 |----------------|---------|---------|---------|---------|---------|--------|
 | Caterpillar-Mi | 74.14   | 95.54   | 79.41   | 95.14   | 5.9M    | 0.4G   |
