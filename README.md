@@ -22,7 +22,7 @@ Caterpillar on ImageNet-1k Classification
 | Caterpillar-S  | 60M | 12.5G | 83.5 | 95.80 | 58.0M |
 | Caterpillar-B  | 80M | 17.0G | 83.7 | 95.85 | 78.8M |
 
-ResNet and ResNet(SPC) on Small-Scale Image Classification
+ResNet(/SPC) on Small-Scale Image Classification
 | Networks | Nc | MIN | C10 | C100 | Fashion | Params | FLOPs |
 | :-- |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Res-18       | 64  | 70.95 | 95.54 | 77.66 | 95.11 | 11.2M | 0.7G |
