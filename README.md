@@ -1,5 +1,7 @@
 # Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation
 
+This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation"
+
 ![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/Cpr%2BBlock%2BSPC.png)
 
 ### Caterpillar on Small-Scale Image Classification
@@ -20,7 +22,7 @@
 | Caterpillar-S  | 60M | 12.5G | 83.5 | 95.80 | 58.0M |
 | Caterpillar-B  | 80M | 17.0G | 83.7 | 95.85 | 78.8M |
 
-This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation"
+
 ### Code overview
 
 The proposed model of Caterpillar is in `caterpillar.py`. 
