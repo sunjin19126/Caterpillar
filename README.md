@@ -2,7 +2,7 @@
 
 This is a Pytorch implementation for the paper "Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation"
 
-![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/CPrArch%2BBlock%2BSPC.png)
+![image](https://github.com/sunjin19126/Caterpillar/blob/main/Img/CPrArch%2BBlock%2BSPC%2B.png)
 
 Caterpillar on Small-Scale Image Classification
 | Networks | MIN | C10 | C100 | Fashion | Params | FLOPs |
