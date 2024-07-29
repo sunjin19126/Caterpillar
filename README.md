@@ -16,7 +16,7 @@ Caterpillar on Small-Scale Image Classification
 Caterpillar on ImageNet-1k Classification
 | Networks | Params | FLOPs | Top-1 Acc. | Log | Ckpt |
 | :-- |:--:|:--:|:--:|:--:|:--:|
-| Caterpillar-Mi | 6M  | 1.2G  | 76.3 | [baidu](https://pan.baidu.com/s/11AUiVNmobYDmGezTc2sgWg?pwd=ms6q) | [baidu]([https://image-net.org/](https://pan.baidu.com/s/1Bm7aE0tLYsEZvbhAvffIpA?pwd=5srf))  |
+| Caterpillar-Mi | 6M  | 1.2G  | 76.3 | [baidu](https://pan.baidu.com/s/11AUiVNmobYDmGezTc2sgWg?pwd=ms6q) | [baidu]((https://pan.baidu.com/s/1Bm7aE0tLYsEZvbhAvffIpA?pwd=5srf))  |
 | Caterpillar-Tx | 16M | 3.4G  | 80.9 | 95.38 | 16.0M |
 | Caterpillar-T  | 29M | 6.0G  | 82.4 | 95.72 | 28.4M |
 | Caterpillar-S  | 60M | 12.5G | 83.5 | 95.80 | 58.0M |
