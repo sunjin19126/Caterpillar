@@ -17,7 +17,7 @@ Caterpillar on ImageNet-1k Classification
 | Networks | Params | FLOPs | Top-1 Acc. | Log | Ckpt |
 | :-- |:--:|:--:|:--:|:--:|:--:|
 | Caterpillar-Mi | 6M  | 1.2G  | 76.3 | [baidu](https://pan.baidu.com/s/11AUiVNmobYDmGezTc2sgWg?pwd=ms6q) | [baidu](https://pan.baidu.com/s/1Bm7aE0tLYsEZvbhAvffIpA?pwd=5srf)  |
-| Caterpillar-Tx | 16M | 3.4G  | 80.9 | [baidu] | [baidu](https://pan.baidu.com/s/1Qh53y7FTFwIuRd8D1apHAQ?pwd=qsru)  |
+| Caterpillar-Tx | 16M | 3.4G  | 80.9 | [baidu](https://pan.baidu.com/s/1upHwlUlU35bdGBTRIoL-OQ?pwd=3kef) | [baidu](https://pan.baidu.com/s/1Qh53y7FTFwIuRd8D1apHAQ?pwd=qsru)  |
 | Caterpillar-T  | 29M | 6.0G  | 82.4 | [baidu] | [baidu](https://pan.baidu.com/s/1_WkOfa3TLzlxoxnvjn7q6w?pwd=nic3)  |
 | Caterpillar-S  | 60M | 12.5G | 83.5 | [baidu] | [baidu](https://pan.baidu.com/s/1Q9tVJZYvWHg86sOpPXRMIA?pwd=h87n) |
 | Caterpillar-B  | 80M | 17.0G | 83.7 | [baidu] | [baidu](https://pan.baidu.com/s/11SFhjx0lgGwnvivTmYQ6hA?pwd=8ueq)  |
