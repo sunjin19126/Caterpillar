@@ -15,7 +15,7 @@ Caterpillar on Small-Scale Image Classification
 
 Caterpillar on ImageNet-1k Classification
 | Networks | Params | FLOPs | Top-1 Acc. | Ckpt |
-| :-- |:--:|:--:|:--:|:--:|:--:|
+| :-- |:--:|:--:|:--:|:--:|
 | Caterpillar-Mi | 6M  | 1.2G  | 76.3 | [baidu](https://pan.baidu.com/s/1Bm7aE0tLYsEZvbhAvffIpA?pwd=5srf)  |
 | Caterpillar-Tx | 16M | 3.4G  | 80.9 | [baidu](https://pan.baidu.com/s/1Qh53y7FTFwIuRd8D1apHAQ?pwd=qsru)  |
 | Caterpillar-T  | 29M | 6.0G  | 82.4 | [baidu](https://pan.baidu.com/s/1_WkOfa3TLzlxoxnvjn7q6w?pwd=nic3)  |
@@ -32,7 +32,7 @@ ResNet(/SPC) on Small-Scale Image Classification
 
 ResNet(/SPC) on ImageNet-1k Classification
 | Networks | Nc | Params | FLOPs | Top-1 Acc. | Ckpt |
-| :-- |:--:|:--:|:--:|:--:|:--:|:--:|
+| :-- |:--:|:--:|:--:|:--:|:--:|
 | Res-18       | 64  | 12M | 1.8G | 70.6 | _ |
 | Res-18(SPC)  | 64  | 3M  | 0.6G | 69.1 | [baidu](https://pan.baidu.com/s/1HGwe4-n0DI03rjPvsG0alg?pwd=xt38) |
 | Res-18(SPC)  | 96  | 7M  | 1.3G | 73.6 | [baidu](https://pan.baidu.com/s/17jzewZYeupJaHtjuuNA5Mg?pwd=kqz1) |
