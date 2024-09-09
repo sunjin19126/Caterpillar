@@ -6,6 +6,7 @@ from timm.models.vision_transformer import Mlp
 from ._registry import register_model
 from timm.models.layers import DropPath, PatchEmbed
 
+
 class FeedForward(nn.Module):
     def __init__(self, in_dim, hidden_dim, out_dim, dropout=0.):
         super().__init__()
