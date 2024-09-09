@@ -301,3 +301,4 @@ def Resnet18_spc128(pretrained=False, **kwargs):
     model = Resnet_spc128(block=BasicBlock, num_blocks=[2, 2, 2, 2], in_chans=3, num_classes=1000)
     # model.default_cfgs = _cfg
     return model
+    
