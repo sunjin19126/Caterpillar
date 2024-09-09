@@ -641,3 +641,4 @@ def Caterpillar_A3_T_FM_Sum(pretrained=False, **kwargs):
                         down_stride=[1,2,2,1],
                         shift_step=[1,1,1,1], **kwargs)
     return model
+    
