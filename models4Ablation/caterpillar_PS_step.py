@@ -159,8 +159,7 @@ class Caterpillar_A2_2(nn.Module):
         x = self.head(x)
         return x
 
-
-
+# --------------------------------------------------------------
 # 0000
 @register_model
 def Caterpillar_A2_2_T_MIN_0000(pretrained=False, **kwargs):
