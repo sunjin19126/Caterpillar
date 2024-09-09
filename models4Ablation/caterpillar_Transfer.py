@@ -9,7 +9,7 @@ from ._registry import register_model
 from timm.models.layers import DropPath, PatchEmbed
 
 # Caterpillar for transfer learning
-
+ 
 class ShiftedPillarsConcatentation_BNAct(nn.Module):
 
     def __init__(self, channels, step):
