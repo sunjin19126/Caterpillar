@@ -44,6 +44,7 @@ class ShiftedPillarsConcatentation_BNAct_Ref(nn.Module):
         x = self.fuse(torch.cat([x_t, x_b, x_r, x_l], dim=1))
         return x
 
+
 class ShiftedPillarsConcatentation_BNAct_Rep(nn.Module):
 
     def __init__(self, channels, step):
