@@ -40,7 +40,7 @@ ResNet(/SPC) on ImageNet-1k Classification
 
 
 
-### Code overview
+### Code Overview
 
 The proposed model of Caterpillar is in `caterpillar.py`. 
 
